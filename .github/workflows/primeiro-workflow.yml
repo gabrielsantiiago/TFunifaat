@@ -4,6 +4,8 @@ on:
   
   push:
     branches: [ "main" ]
+    paths-ignore:
+      - README.md
   
   
   workflow_dispatch:
@@ -17,9 +19,9 @@ jobs:
 
     
     steps:
-      - name: Imprime uma mensagem de boas-vindas
-        run: echo "Iniciando meu primeiro job!"
+      - name: RA - Nome
+        run: 6324647 Gabriel Santiago De Andrade"
       - name: Mostra o diretório de trabalho
         run: pwd
-      - name: Lista arquivos no runner
-        run: ls -la
+      - name: nome do repositório
+        run: echo "Nome do repositório: ${{ github.repository }}"

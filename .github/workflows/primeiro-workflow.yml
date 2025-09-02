@@ -16,13 +16,11 @@ jobs:
   meu-primeiro-job:
     
     runs-on: ubuntu-latest
-
-
     steps:
       - name: RA - Nome
         run: echo "6324647 Gabriel Santiago De Andrade"
       - name: Mostra o diretório de trabalho
         run: pwd
-       - name: nome do repositório
+      - name: nome do repositório
         run: |
           echo "nome do repositório ${{ github.repository }}"

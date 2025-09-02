@@ -20,8 +20,8 @@ jobs:
     
     steps:
       - name: RA - Nome
-        run: 6324647 Gabriel Santiago De Andrade"
+        run: echo "6324647 Gabriel Santiago De Andrade"
       - name: Mostra o diretório de trabalho
         run: pwd
       - name: nome do repositório
-        run: echo "Nome do repositório: ${{ github.repository }}"
+        run: echo "nome do repositorio: ${{github.repository}}"

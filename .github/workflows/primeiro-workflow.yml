@@ -23,6 +23,6 @@ jobs:
         run: echo "6324647 Gabriel Santiago De Andrade"
       - name: Mostra o diretório de trabalho
         run: pwd
-      - name: Imprime o nome do repositório
-  run: |
-    echo "Nome do repositório: ${{ github.repository }}"
+       - name: nome do repositório
+        run: |
+          echo "nome do repositório ${{ github.repository }}"
